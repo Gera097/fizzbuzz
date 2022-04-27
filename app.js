@@ -1,10 +1,10 @@
 // Part 1 Read json file ===========================
 const Reader = require("./lib/utils/Reader");
 const explorers = Reader.readJsonFile("explorers.json"); // esto regresa la lista de explorers del archivo
-
+//console.log(explorers)
 // Part 2: Get the quantity of explorers names in node
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
-console.log(explorersInNode.length)
+//console.log(explorersInNode.length)
 
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
