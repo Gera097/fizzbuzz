@@ -2,7 +2,7 @@ const Reader = require("./../../lib/utils/Reader");
 
 
 test("Testing Reader class", () => {
-    const explorers = Reader.readJsonFile("./mock/explorers.json"); // esto regresa la lista de explorers del archivo
+    const explorers = Reader.readJsonFile("test/mock/explorers.json"); // esto regresa la lista de explorers del archivo
     expect(explorers).toEqual([
         {
             "name": "Woopa1",
