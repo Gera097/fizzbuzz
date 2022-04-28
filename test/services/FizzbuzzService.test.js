@@ -28,13 +28,13 @@ describe("Unit testing for FizzbuzzService class", () => {
     }); 
 
     test("Prueba de applyValidationInNumber", () => {
-        let score = 3
-        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("FIZZ")
-        score = 5
-        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("BUZZ")
-        score = 15
-        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("FIZZBUZZ")
-        score = 11
-        expect(FizzbuzzService.applyValidationInNumber(score)).toBe(11)
-    })
+        let score = 3;
+        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("FIZZ");
+        score = 5;
+        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("BUZZ");
+        score = 15;
+        expect(FizzbuzzService.applyValidationInNumber(score)).toBe("FIZZBUZZ");
+        score = 11;
+        expect(FizzbuzzService.applyValidationInNumber(score)).toBe(11);
+    });
 });
