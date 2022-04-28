@@ -8,4 +8,9 @@ describe("Unit test for class ExplorerController", () => {
         console.log(result)
         expect(result_java.length).toBe(5)
     })
+
+    test("Prueba método getExplorersUsernamesByMission", () => {
+        const result = ExplorerController.getExplorersUsernamesByMission("node")
+        expect(result.length).toBe(10)
+    })
 })
